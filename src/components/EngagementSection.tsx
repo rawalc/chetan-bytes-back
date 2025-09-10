@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import growthLoopDiagram from "@/assets/growth-loop-diagram.jpg";
 
 const EngagementSection = () => {
   return (
@@ -18,7 +17,7 @@ const EngagementSection = () => {
         
         <Card className="bg-gradient-card border-border/20 p-8 shadow-card hover-lift">
           <img 
-            src={growthLoopDiagram} 
+            src="/EngagementGrowthLoops.gif" 
             alt="Product Growth Loop Diagram"
             className="w-full max-w-3xl mx-auto rounded-lg"
           />
