@@ -7,7 +7,7 @@ const Header = () => {
         <img 
           src="/DSC_1435.jpg" 
           alt="Chetan Rawal Profile"
-          className="w-12 h-12 rounded-full object-cover border-2 border-accent/20"
+          className="w-12 h-12 rounded-full object-cover object-top scale-125 border-2 border-accent/20"
         />
         <div>
           <h1 className="text-lg font-semibold text-foreground">
