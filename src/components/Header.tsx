@@ -24,8 +24,10 @@ const Header = () => {
         <Button variant="ghost" className="text-muted-foreground hover:text-foreground">
           Home
         </Button>
-        <Button variant="cta">
-          Book A Meeting
+        <Button variant="cta" asChild>
+          <a href="https://calendly.com/chetan_rawal/conversation-with-chetan" target="_blank" rel="noopener noreferrer">
+            Book A Meeting
+          </a>
         </Button>
       </nav>
     </header>

@@ -13,8 +13,10 @@ const HeroSection = () => {
         </p>
         
         <div className="pt-4">
-          <Button variant="hero" className="animate-scale-in">
-            Discuss Your Product Management Needs
+          <Button variant="hero" className="animate-scale-in" asChild>
+            <a href="https://calendly.com/chetan_rawal/conversation-with-chetan" target="_blank" rel="noopener noreferrer">
+              Discuss Your Product Management Needs
+            </a>
           </Button>
         </div>
       </div>

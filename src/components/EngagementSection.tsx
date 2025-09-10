@@ -25,8 +25,10 @@ const EngagementSection = () => {
         </Card>
         
         <div className="text-center pt-8">
-          <Button variant="cta" size="lg">
-            Transform Your Products To Contribute To Growth
+          <Button variant="cta" size="lg" asChild>
+            <a href="https://calendly.com/chetan_rawal/conversation-with-chetan" target="_blank" rel="noopener noreferrer">
+              Transform Your Products To Contribute To Growth
+            </a>
           </Button>
         </div>
       </div>
