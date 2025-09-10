@@ -27,7 +27,7 @@ const ProfessionalSection = () => {
               <ul className="space-y-3 text-muted-foreground">
                 <li className="flex items-start gap-2">
                   <span className="w-2 h-2 bg-accent rounded-full mt-2 flex-shrink-0"></span>
-                  Chetan worked for MATLAB. And now uses Python and SQL to do data engineering and analytics
+                  Expert in SQL, Amplitude, and Python for data engineering and analytics. Previously worked at MATLAB.
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="w-2 h-2 bg-accent rounded-full mt-2 flex-shrink-0"></span>
