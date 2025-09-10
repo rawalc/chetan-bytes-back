@@ -1,12 +1,11 @@
 import { Button } from "@/components/ui/button";
-import profileImage from "@/assets/profile-image.jpg";
 
 const Header = () => {
   return (
     <header className="w-full px-6 py-4 flex items-center justify-between border-b border-border/20 backdrop-blur-sm">
       <div className="flex items-center gap-4">
         <img 
-          src={profileImage} 
+          src="/DSC_1435.jpg" 
           alt="Chetan Rawal Profile"
           className="w-12 h-12 rounded-full object-cover border-2 border-accent/20"
         />
